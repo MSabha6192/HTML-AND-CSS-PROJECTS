@@ -1,0 +1,8 @@
+p {
+	color: red;
+	background: lightblue;
+	font-weight: bold;
+	text-align: right;
+	}
+p {text-shadow: 2px 3px 5px black;}
+	
