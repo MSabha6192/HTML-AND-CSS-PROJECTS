@@ -1,0 +1,241 @@
+/*Adds effects for the navbar*/
+
+body {
+    background-color: honeydew;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: red;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*Adds color to the navbar text*/
+
+.navbar a {
+    color: orange;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Centers the images*/
+
+.center,
+.centering {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*Adds text on the image*/
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.top-left {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.top-right {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+
+/*Background turns to gray for Honeydew*/
+
+.center {
+    filter: grayscale(75%);
+}
+
+.center {
+    border: 10px solid purple;
+    padding: 50px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+/*Adds a border to the table*/
+
+table,
+th,
+td {
+    border: 10px solid gray;
+}
+
+td,
+th {
+    padding: 20px;
+}
+
+th {
+    background-color: lightblue;
+}
+
+table {
+    margin-top: 50px;
+}
+
+
+/*Creates 2 columns side by side*/
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h2 {
+    color: brown;
+}
+
+.column p {
+    color: red;
+}
+
+
+/*Changes color of text in the 2 columns*/
+
+.column {
+    width: 200px;
+    height: 300px;
+}
+
+p:hover {
+    background-color: navy;
+    font-size: 25px;
+}
+
+
+/*Hover effect for all p elements*/
+
+
+/*Image Overlay Fade*/
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.center {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .center {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: red;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+
+/*Video with a text overlay*/
+
+.Vids {
+    position: relative;
+    width: 100%;
+}
+
+video {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Vids:hover video {
+    opacity: 0.3;
+}
+
+.Vids:hover .mid {
+    opacity: 1;
+}
+
+.Text {
+    background-color: purple;
+    font-size: 40px;
+    padding: 15px 25px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+}
