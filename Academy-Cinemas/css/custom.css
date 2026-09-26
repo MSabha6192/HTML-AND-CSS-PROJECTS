@@ -89,7 +89,7 @@
         padding-top: 15px;
         /*Adds some space to the top of each link to center them*/
         padding-bottom: 20px;
-        /*Adds some space tp the bottom of each link to center them*/
+        /*Adds some space to the bottom of each link to center them*/
         border-bottom: 2px solid rgb(117, 77, 13);
     }
     
@@ -151,7 +151,7 @@
         font-family: var(--main-font-family);
     }
     
-    b {
+    p {
         font-weight: 600;
     }
     
