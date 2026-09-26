@@ -1,0 +1,7 @@
+/*For devices with a maximum width of 600px*/
+
+@media screen and (max-width: 600px) {
+    body p {
+        color: blue;
+    }
+}
