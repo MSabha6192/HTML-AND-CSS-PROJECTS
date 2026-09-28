@@ -67,6 +67,17 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 1.5rem;
     }
+    /*SHRINK ON SCROLL NAVBAR*/
+    
+    .nav-shrink {
+        height: 80px;
+        transition: .5s ease;
+    }
+    /*Adds a transition to the movie drop down menu on shrink and scroll*/
+    
+    .navbar-collapse {
+        transition: margin-top 0.5s ease;
+    }
     /*MOVIE DROP DOWN MENU*/
     /*Targets the drop down menu that contains the link for each movie title*/
     
